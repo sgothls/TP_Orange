@@ -18,5 +18,10 @@
 		<test name="edu.ncsu.orange.OrangeTest" outfile="resultOrange"/>
 		<test name="edu.ncsu.orange.PanierTest" outfile="resultPanier"/>
 		</junit>
+		<junitreport todir="${basedir}">
+			<fileset dir="${basedir}">
+				<include name="result.xml" />
+			</fileset>
+		</junitreport>
 	</target>
 </project>
