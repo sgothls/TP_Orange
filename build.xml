@@ -20,7 +20,7 @@
 		</junit>
 		<junitreport todir="${basedir}">
 			<fileset dir="${basedir}">
-				<include name="result.xml" />
+				<include name="result*.xml" />
 			</fileset>
 		</junitreport>
 	</target>
